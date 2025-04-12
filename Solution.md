@@ -18,7 +18,7 @@
 **Solution:**
 1. Visit `http://82.25.105.26`.
 2. Inspect the website's cookies using browser developer tools (e.g., Chrome DevTools).
-3. Locate the cookie named `cookiee` with the key value.  
+3. Locate the cookie named `key` with flag as its value.  
 **Flag:** `shadowCTF{QXBy}`
 
 ---
@@ -77,7 +77,7 @@
    - Navigate to `/home` and find a SUID binary.
    - Execute the binary to spawn a root shell.
    ```bash
-   ./exploit_me
+   /home/ctfuser/leaky/i_m_here
    ```
 5. **Read the Root Flag:**
    ```bash
